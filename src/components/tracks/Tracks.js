@@ -1,10 +1,14 @@
 import React from "react";
+import { Consumer } from "../../context";
 
 const Tracks = () => {
   return (
-    <React.Fragment>
-      <h1>Tracks</h1>
-    </React.Fragment>
+    <Consumer>
+      {(value) => {
+        console.log(value);
+        return <h1>Tracks</h1>;
+      }}
+    </Consumer>
   );
 };
 
