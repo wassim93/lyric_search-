@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./components/layout/NavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
-import Index from "./components/layout";
+import Index from "./components/layout/Index";
 import { Provider } from "./context";
 
 function App() {
