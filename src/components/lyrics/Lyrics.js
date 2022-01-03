@@ -16,7 +16,6 @@ class Lyrics extends Component {
         `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_API_KEY}`
       )
       .then((res) => {
-        console.log(res.data);
         this.setState({ lyrics: res.data.message.body.lyrics });
         return axios.get(
           `https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_API_KEY}`
@@ -67,9 +66,7 @@ class Lyrics extends Component {
             </li>
             <li className="list-group-item">
               <strong>Release Date :</strong>{" "}
-              <Moment format="DD/MM/YYYY">
-                {track.track.first_release_date}
-              </Moment>
+              <Moment format="DD/MM/YYYY">{track.first_release_date}</Moment>
             </li>
           </ul>
         </React.Fragment>
