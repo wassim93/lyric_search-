@@ -1,6 +1,6 @@
 # Music LYRICS SEARCH WEB APP
 Find Music Lyrics
-* React Js 
+* React Js ( class based components )
 * Musixmatch API
 * https://developer.musixmatch.com/documentation
 
