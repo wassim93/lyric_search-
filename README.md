@@ -1,3 +1,25 @@
+# Music LYRICS SEARCH WEB APP
+Find Music Lyrics
+* React Js 
+* Musixmatch API
+* https://developer.musixmatch.com/documentation
+
+
+Screenshots: 
+
+Home Page UI
+
+<img src="https://github.com/wassim93/lyric_search-/blob/master/public/Screenshots/home.PNG" width=50% height=50%>
+
+Lyrics Page 
+
+<img src="https://github.com/wassim93/lyric_search-/blob/master/public/Screenshots/lyrics%20page.PNG" width=50% height=50%>
+
+Loading Search Data 
+
+<img src="https://github.com/wassim93/lyric_search-/blob/master/public/Screenshots/saecrh%20results.PNG" width=50% height=50%>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
