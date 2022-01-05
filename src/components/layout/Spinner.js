@@ -7,7 +7,7 @@ export default class Spinner extends Component {
     return (
       <div>
         <img
-          src="{loader}"
+          src={loader}
           alt="Loading..."
           style={{ width: "200px", margin: "40px auto", display: "block" }}
         />
